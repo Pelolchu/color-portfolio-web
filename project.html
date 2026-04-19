@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto - Colorista</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/project.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__title">Colorista</h1>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Trabajos</a></li>
+                    <li><a href="#about" class="nav__link">Sobre mí</a></li>
+                    <li><a href="#contact" class="nav__link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Project Header -->
+        <section class="project-header">
+            <div class="project-header__container">
+                <a href="index.html" class="project-header__back">← Volver a trabajos</a>
+                <h1 id="project-title" class="project-header__title">Proyecto</h1>
+                <div class="project-header__meta">
+                    <span id="project-year" class="project-header__year">2024</span>
+                    <div id="project-roles" class="project-header__roles"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slider Before/After -->
+        <section class="project-slider">
+            <div class="project-slider__container">
+                <div id="comparison-slider" class="comparison-slider">
+                    <div class="comparison-slider__wrapper">
+                        <video autoplay muted playsinline loop class="comparison-slider__img comparison-slider__img--before">
+                            <source id="video-before" src="" type="video/mp4">
+                        </video>
+                        
+                        <div class="comparison-slider__overlay">
+                            <video autoplay muted playsinline loop class="comparison-slider__img comparison-slider__img--after">
+                                <source id="video-after" src="" type="video/mp4">
+                            </video>
+                        </div>
+                        
+                        <div class="comparison-slider__divider"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section class="project-gallery">
+            <div class="project-gallery__container">
+                <h2>Galería</h2>
+                <div id="gallery-grid" class="gallery-grid">
+                    <!-- Las imágenes se cargan aquí dinámicamente -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <p>&copy; 2024 Colorista. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/slider.js"></script>
+    <script src="js/project.js"></script>
+</body>
+</html>
