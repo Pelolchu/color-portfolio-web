@@ -2,7 +2,11 @@ async function loadProjects() {
     try {
         const response = await fetch('data/projects.json');
         const data = await response.json();
-        renderProjects(data.projects);
+        
+        // Ordenar por año descendente (más reciente primero)
+        const sortedProjects = data.projects.sort((a, b) => b.year - a.year);
+        
+        renderProjects(sortedProjects);
     } catch (error) {
         console.error('Error cargando proyectos:', error);
     }
@@ -30,8 +34,10 @@ function createProjectCard(project) {
     card.innerHTML = `
         <img src="${project.preview}" alt="${project.title}" class="project-card__image">
         <div class="project-card__content">
-            <h3 class="project-card__title">${project.title}</h3>
-            <span class="project-card__year">${project.year}</span>
+            <div class="project-card__header">
+                <h3 class="project-card__title">${project.title}</h3>
+                <span class="project-card__year">${project.year}</span>
+            </div>
             <div class="project-card__roles">
                 ${rolesHTML}
             </div>
