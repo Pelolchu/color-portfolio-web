@@ -1,60 +1,95 @@
-# Color Portfolio - Before/After Slider
+# Portafolio Web - Colorista
 
-Un componente interactivo antes/después para un portafolio de colorista.
+Mi sitio web personal como colorista. Portfolio interactivo con galerías de proyectos, vistas previas en slideshow y efectos before/after.
 
-## Estructura
+## 🎨 Características
+
+✅ **Portfolio dinámico**: Galería de proyectos con imágenes en slideshow
+✅ **Gestión basada en JSON**: Estructura simple para agregar/modificar proyectos
+✅ **Responsive**: Altura de tarjetas adaptativa (3 proyectos por viewport)
+✅ **Tipografías personalizadas**: Cada proyecto puede tener su propia fuente TTF
+✅ **Slider before/after**: Futuro componente para mostrar antes/después de trabajos de color
+✅ **Posicionamiento customizable**: Control individual de posición de imágenes en cada proyecto
+✅ **Sin frameworks**: HTML, CSS y JavaScript puro
+
+## 📁 Estructura
 
 ```
 color-portfolio-web/
-├── index.html
-├── styles.css
-├── script.js
-└── images/
-    ├── before.jpg    (Tu imagen original)
-    └── after.jpg     (Tu imagen con color)
+├── index.html                 (Página principal del portfolio)
+├── css/
+│   ├── styles.css            (Estilos globales)
+│   ├── home.css              (Estilos del portfolio)
+│   └── project.css           (Estilos para futuros proyectos)
+├── js/
+│   ├── loader.js             (Carga dinámica de proyectos)
+│   └── slider.js             (Componente before/after - en desarrollo)
+├── data/
+│   └── projects.json         (Datos de proyectos)
+├── generate-projects.js      (Script para generar projects.json)
+└── assets/projects/
+    ├── Proyecto_1/
+    │   ├── cover.jpg         (Imagen de portada)
+    │   ├── [fuente].ttf      (Tipografía personalizada opcional)
+    │   ├── after/            (Imágenes del slideshow)
+    │   └── before/           (Imágenes para slider before/after)
+    └── Proyecto_2/
+        └── ...
 ```
 
-## Características
+## 🚀 Instalación
 
-✅ **Interactivo**: Arrastra el mouse horizontalmente para revelar el resultado
-✅ **Responsive**: Funciona perfectamente en desktop, tablet y móvil
-✅ **Smooth**: Animaciones suaves y natural
-✅ **Sin dependencias**: HTML, CSS y JavaScript puro
-✅ **Preparado para videos**: Fácil de adaptar a loops de video
+1. Clonar el repositorio
+2. Agregar carpetas de proyectos en `assets/projects/`
+3. Ejecutar `npm run generate` para crear `projects.json`
+4. Abrir `index.html` en navegador o desplegar en hosting
 
-## Cómo usar
+## ⚙️ Configuración de Proyectos
 
-1. Coloca tus imágenes en la carpeta `images/`:
-   - `before.jpg` → La imagen original (sin color)
-   - `after.jpg` → La imagen procesada (con color)
+### Estructura de carpeta de proyecto
 
-2. Abre `index.html` en tu navegador
+```
+assets/projects/Mi_Proyecto/
+├── cover.jpg                 (Portada del proyecto)
+├── [fuente].ttf             (Opcional: tipografía personalizada)
+├── after/                   (Imágenes del slideshow)
+│   ├── 1A.jpg
+│   ├── 2A.jpg
+│   └── ...
+└── before/                  (Imágenes para before/after slider)
+    ├── 1B.jpg
+    └── ...
+```
 
-3. Arrastra el mouse sobre la imagen para ver el efecto
+### Personalización en `projects.json`
 
-## Personalización
+Editar manualmente propiedades como:
+- `coverPosition`: Posición vertical de la portada (ej: "center center", "center 30%")
+- `imagePositions`: Posición individual de cada imagen en el slideshow
+- `year`: Año del proyecto
+- `roles`: Roles/tags del proyecto
 
-### Cambiar colores
-Edita `styles.css` y busca `#00d4ff` para cambiar el color del divisor y handle.
+**Nota**: El script `generate-projects.js` preserva estas customizaciones.
 
-### Cambiar tamaño máximo
-En `styles.css`, modifica `max-width: 800px` en `.comparison-slider__wrapper`.
+## 🛠️ Scripts disponibles
 
-### Cambiar textos
-En `index.html`, edita:
-- `<h1>Mi Trabajo de Color</h1>`
-- `<p class="subtitle">Arrastra el mouse...</p>`
-- `<span class="comparison-slider__label...">Antes</span>`
-- `<span class="comparison-slider__label...">Después</span>`
+```bash
+npm run generate    # Regenera projects.json desde carpetas
+```
 
-## Próximas mejoras
+## 📝 Próximas mejoras
 
-- [ ] Soporte para videos en lugar de imágenes estáticas
-- [ ] Multiple sliders en una página
-- [ ] Efecto parallax opcional
-- [ ] Teclado arrow keys para control preciso
+- [ ] Implementar slider before/after interactivo
+- [ ] Soporte para videos en slideshows
+- [ ] Página de detalles del proyecto
+- [ ] Sistema de filtros por año/rol
+- [ ] Contacto y formulario
 
-## Compatibilidad
+## 📦 Media
+
+El repositorio ignora intencionalmente los archivos multimedia (`*.jpg`, `*.mp4`, etc.) en `/assets/projects/` para mantener el repositorio ligero. Ver `.gitignore` para más detalles.
+
+## 💻 Compatibilidad
 
 ✅ Chrome, Firefox, Safari, Edge (versiones modernas)
-✅ Móviles iOS y Android
+✅ Responsive en desktop, tablet y móvil
