@@ -1,20 +1,107 @@
 {
   "projects": [
     {
-      "id": "proyecto-1",
-      "title": "Mi Primer Proyecto",
-      "year": 2024,
-      "roles": ["Colorista", "Grading"],
-      "preview": "assets/images/proyecto-1-thumb.jpg",
-      "description": "Descripción del proyecto",
-      "images": [
-        "assets/images/proyecto-1-1.jpg",
-        "assets/images/proyecto-1-2.jpg",
-        "assets/images/proyecto-1-3.jpg"
+      "id": "Fuego_Fatuo_-_Aventura_y_Perla",
+      "title": "Fuego Fatuo - Aventura Y Perla",
+      "year": 2026,
+      "roles": [
+        "Colorista"
       ],
+      "preview": "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/cover.jpg",
+      "coverPosition": "center 60%",
+      "images": [
+        "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/after/2A.jpg",
+        "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/after/3A.jpg",
+        "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/after/4A.jpg",
+        "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/after/5A.jpg",
+        "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/after/6A.jpg",
+        "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/after/7A.jpg"
+      ],
+      "imagePositions": {
+        "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/after/6A.jpg": "center 10%",
+        "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/after/2A.jpg": "center bottom",
+        "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/after/5A.jpg": "center 45%"
+      },
+      "beforeImages": [],
+      "font": "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/constan.ttf",
       "slider": {
-        "before": "assets/videos/proyecto-1-before.mp4",
-        "after": "assets/videos/proyecto-1-after.mp4"
+        "before": null,
+        "after": null
+      }
+    },
+    {
+      "id": "Maldita_Veneca",
+      "title": "Maldita Veneca",
+      "year": 2026,
+      "roles": [
+        "Colorista"
+      ],
+      "preview": "assets/projects/Maldita_Veneca/cover.jpg",
+      "coverPosition": "center center",
+      "images": [
+        "assets/projects/Maldita_Veneca/after/10A.jpg",
+        "assets/projects/Maldita_Veneca/after/1A.jpg",
+        "assets/projects/Maldita_Veneca/after/2A.jpg",
+        "assets/projects/Maldita_Veneca/after/3A.jpg",
+        "assets/projects/Maldita_Veneca/after/4A.jpg",
+        "assets/projects/Maldita_Veneca/after/5A.jpg",
+        "assets/projects/Maldita_Veneca/after/6A.jpg",
+        "assets/projects/Maldita_Veneca/after/7A.jpg",
+        "assets/projects/Maldita_Veneca/after/8A.jpg",
+        "assets/projects/Maldita_Veneca/after/9A.jpg"
+      ],
+      "imagePositions": {
+        "assets/projects/Maldita_Veneca/after/10A.jpg": "center 65%",
+        "assets/projects/Maldita_Veneca/after/2A.jpg": "center 40%",
+        "assets/projects/Maldita_Veneca/after/4A.jpg": "center 15%"
+      },
+      "beforeImages": [],
+      "font": null,
+      "slider": {
+        "before": null,
+        "after": null
+      }
+    },
+    {
+      "id": "Marax_-_UNA",
+      "title": "Marax - UNA",
+      "year": 2026,
+      "roles": [
+        "Colorista"
+      ],
+      "preview": "assets/projects/Marax_-_UNA/cover.jpg",
+      "coverPosition": "center center",
+      "images": [
+        "assets/projects/Marax_-_UNA/after/10A.jpg",
+        "assets/projects/Marax_-_UNA/after/11A.jpg",
+        "assets/projects/Marax_-_UNA/after/12A.jpg",
+        "assets/projects/Marax_-_UNA/after/13A.jpg",
+        "assets/projects/Marax_-_UNA/after/14A.jpg",
+        "assets/projects/Marax_-_UNA/after/15A.jpg",
+        "assets/projects/Marax_-_UNA/after/1A.jpg",
+        "assets/projects/Marax_-_UNA/after/2A.jpg",
+        "assets/projects/Marax_-_UNA/after/3A.jpg",
+        "assets/projects/Marax_-_UNA/after/4A.jpg",
+        "assets/projects/Marax_-_UNA/after/5A.jpg",
+        "assets/projects/Marax_-_UNA/after/6A.jpg",
+        "assets/projects/Marax_-_UNA/after/7A.jpg",
+        "assets/projects/Marax_-_UNA/after/8A.jpg",
+        "assets/projects/Marax_-_UNA/after/9A.jpg"
+      ],
+      "imagePositions": {
+        "assets/projects/Marax_-_UNA/after/10A.jpg": "center 30%",
+        "assets/projects/Marax_-_UNA/after/11A.jpg": "center 40%",
+        "assets/projects/Marax_-_UNA/after/14A.jpg": "center top",
+        "assets/projects/Marax_-_UNA/after/15A.jpg": "center 30%",
+        "assets/projects/Marax_-_UNA/after/6A.jpg": "center 30%",
+        "assets/projects/Marax_-_UNA/after/8A.jpg": "center 30%",
+        "assets/projects/Marax_-_UNA/after/2A.jpg": "center 45%"
+      },
+      "beforeImages": [],
+      "font": "assets/projects/Marax_-_UNA/BASKVILL.TTF",
+      "slider": {
+        "before": null,
+        "after": null
       }
     }
   ]

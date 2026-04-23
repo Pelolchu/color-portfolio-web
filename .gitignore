@@ -1,0 +1,12 @@
+# Ignorar archivos multimedia en proyectos
+assets/projects/**/*.jpg
+assets/projects/**/*.jpeg
+assets/projects/**/*.png
+assets/projects/**/*.webp
+assets/projects/**/*.mp4
+assets/projects/**/*.webm
+
+# Ignorar node_modules y archivos de sistema
+node_modules/
+.DS_Store
+Thumbs.db

@@ -3,33 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colorista - Antes & Después</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Ramiro Arsanto | Colorist & Video Editor</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-    <div class="container">
-        <div class="comparison-slider">
-            <div class="comparison-slider__wrapper">
-                <!-- Video "antes" (base) -->
-                <video autoplay muted playsinline loop class="comparison-slider__img comparison-slider__img--before">
-                    <source src="videos/before.mp4" type="video/mp4">
-                    <source src="videos/before.webm" type="video/webm">
-                </video>
-                
-                <!-- Contenedor del video "después" con clip -->
-                <div class="comparison-slider__overlay">
-                    <video autoplay muted playsinline loop class="comparison-slider__img comparison-slider__img--after">
-                        <source src="videos/after.mp4" type="video/mp4">
-                        <source src="videos/after.webm" type="video/webm">
-                    </video>
-                </div>
-                
-                <!-- Divisor (línea indicadora) -->
-                <div class="comparison-slider__divider"></div>
+    <header class="header">
+        <div class="header__content">
+            <div class="header__left">
+                <h1 class="header__name">Ramiro Arsanto | Colorist & Video Editor</h1>
+                <p class="header__subtitle">Buenos Aires, Argentina.</p>
             </div>
+            <nav class="header__nav">
+                <a href="#works" class="header__link">Works</a>
+                <a href="#about" class="header__link">About</a>
+                <a href="#contact" class="header__link">Contact</a>
+            </nav>
         </div>
-    </div>
+    </header>
 
-    <script src="script.js"></script>
+    <main class="main">
+        <div class="container">
+            <!-- Projects Grid -->
+            <section class="projects__container">
+                <div id="projects-grid" class="projects__grid"></div>
+            </section>
+        </div>
+    </main>
+
+    <script src="js/loader.js"></script>
 </body>
 </html>

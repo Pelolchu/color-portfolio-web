@@ -5,8 +5,8 @@
 }
 
 :root {
-    --color-bg: #0f0f0f;
-    --color-bg-secondary: #1a1a1a;
+    --color-bg: #000000;
+    --color-bg-secondary: #000000;
     --color-text: #ffffff;
     --color-text-secondary: #a0a0a0;
     --color-accent: #00d4ff;
@@ -15,10 +15,12 @@
     --spacing-md: 2rem;
     --spacing-lg: 3rem;
     --spacing-xl: 4rem;
+    --card-height: auto;
 }
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -26,6 +28,7 @@ body {
     background-color: var(--color-bg);
     color: var(--color-text);
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 /* Header */
@@ -35,19 +38,70 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
+    padding: 8px 0;
+    font-family: 'Times New Roman', serif;
 }
 
-.header__container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: var(--spacing-md);
+.header__content {
+    max-width: 100%;
+    padding: 0 var(--spacing-lg);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-.header__title {
+.header__left {
+    flex: none;
+    text-align: center;
+}
+
+.header__nav {
+    display: flex;
+    gap: var(--spacing-xs);
+    position: absolute;
+    right: var(--spacing-xs);
+}
+
+.header__link {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.header__link:hover {
+    color: var(--color-accent);
+}
+
+.header__link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--color-accent);
+    transition: width 0.3s ease;
+}
+
+.header__link:hover::after {
+    width: 100%;
+}
+
+.header__name {
     font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0rem;
+}
+
+.header__subtitle {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    margin: 0;
+    font-style: italic;
+}
     font-weight: 700;
     letter-spacing: -1px;
 }
@@ -72,9 +126,9 @@ body {
 
 /* Main */
 .main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: var(--spacing-xl) var(--spacing-md);
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* Footer */

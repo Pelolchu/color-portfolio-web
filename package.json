@@ -1,0 +1,16 @@
+{
+  "name": "color-portfolio-web",
+  "version": "1.0.0",
+  "description": "Portfolio web para trabajos de colorista con before/after sliders",
+  "main": "generate-projects.js",
+  "scripts": {
+    "generate-projects": "node generate-projects.js"
+  },
+  "keywords": [
+    "portfolio",
+    "colorista",
+    "grading"
+  ],
+  "author": "Pelolchu",
+  "license": "MIT"
+}
