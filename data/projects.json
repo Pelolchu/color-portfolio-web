@@ -5,7 +5,7 @@
       "title": "Fuego Fatuo - Aventura Y Perla",
       "year": 2026,
       "roles": [
-        "Colorista"
+        "Colorist"
       ],
       "preview": "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/cover.jpg",
       "coverPosition": "center 60%",
@@ -41,7 +41,9 @@
       "title": "Maldita Veneca",
       "year": 2026,
       "roles": [
-        "Colorista"
+        "Colorist",
+        "Editor",
+        "Videographer"
       ],
       "preview": "assets/projects/Maldita_Veneca/cover.jpg",
       "coverPosition": "center center",
@@ -85,7 +87,8 @@
       "title": "Marax - UNA",
       "year": 2026,
       "roles": [
-        "Colorista"
+        "Colorist",
+        "Video Assistant"
       ],
       "preview": "assets/projects/Marax_-_UNA/cover.jpg",
       "coverPosition": "center center",
