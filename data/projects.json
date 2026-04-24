@@ -22,7 +22,14 @@
         "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/after/2A.jpg": "center bottom",
         "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/after/5A.jpg": "center 45%"
       },
-      "beforeImages": [],
+      "beforeImages": [
+        "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/before/2A.jpg",
+        "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/before/3A.jpg",
+        "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/before/4A.jpg",
+        "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/before/5A.jpg",
+        "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/before/6A.jpg",
+        "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/before/7A.jpg"
+      ],
       "font": "assets/projects/Fuego_Fatuo_-_Aventura_y_Perla/constan.ttf",
       "slider": {
         "before": null,
@@ -55,7 +62,18 @@
         "assets/projects/Maldita_Veneca/after/2A.jpg": "center 40%",
         "assets/projects/Maldita_Veneca/after/4A.jpg": "center 15%"
       },
-      "beforeImages": [],
+      "beforeImages": [
+        "assets/projects/Maldita_Veneca/before/10A.jpg",
+        "assets/projects/Maldita_Veneca/before/1A.jpg",
+        "assets/projects/Maldita_Veneca/before/2A.jpg",
+        "assets/projects/Maldita_Veneca/before/3A.jpg",
+        "assets/projects/Maldita_Veneca/before/4A.jpg",
+        "assets/projects/Maldita_Veneca/before/5A.jpg",
+        "assets/projects/Maldita_Veneca/before/6A.jpg",
+        "assets/projects/Maldita_Veneca/before/7A.jpg",
+        "assets/projects/Maldita_Veneca/before/8A.jpg",
+        "assets/projects/Maldita_Veneca/before/9A.jpg"
+      ],
       "font": null,
       "slider": {
         "before": null,
@@ -97,7 +115,23 @@
         "assets/projects/Marax_-_UNA/after/8A.jpg": "center 30%",
         "assets/projects/Marax_-_UNA/after/2A.jpg": "center 45%"
       },
-      "beforeImages": [],
+      "beforeImages": [
+        "assets/projects/Marax_-_UNA/before/10A.jpg",
+        "assets/projects/Marax_-_UNA/before/11A.jpg",
+        "assets/projects/Marax_-_UNA/before/12A.jpg",
+        "assets/projects/Marax_-_UNA/before/13A.jpg",
+        "assets/projects/Marax_-_UNA/before/14A.jpg",
+        "assets/projects/Marax_-_UNA/before/15A.jpg",
+        "assets/projects/Marax_-_UNA/before/1A.jpg",
+        "assets/projects/Marax_-_UNA/before/2A.jpg",
+        "assets/projects/Marax_-_UNA/before/3A.jpg",
+        "assets/projects/Marax_-_UNA/before/4A.jpg",
+        "assets/projects/Marax_-_UNA/before/5A.jpg",
+        "assets/projects/Marax_-_UNA/before/6A.jpg",
+        "assets/projects/Marax_-_UNA/before/7A.jpg",
+        "assets/projects/Marax_-_UNA/before/8A.jpg",
+        "assets/projects/Marax_-_UNA/before/9A.jpg"
+      ],
       "font": "assets/projects/Marax_-_UNA/BASKVILL.TTF",
       "slider": {
         "before": null,

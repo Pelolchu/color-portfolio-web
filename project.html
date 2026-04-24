@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto - Colorista</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/project.css">
+</head>
+<body>
+    <!-- Header - Mismo que en index -->
+    <header class="header">
+        <div class="header__content">
+            <div class="header__left">
+                <h1 class="header__name">Ramiro Arsanto | Colorist & Video Editor</h1>
+                <p class="header__subtitle">Buenos Aires, Argentina.</p>
+            </div>
+            <nav class="header__nav">
+                <a href="index.html" class="header__link">Works</a>
+                <a href="#about" class="header__link">About</a>
+                <a href="#contact" class="header__link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="project__container">
+            <!-- Título del proyecto con tipografía personalizada -->
+            <div class="project__header">
+                <h1 id="project-title" class="project__title">Título del Proyecto</h1>
+                <div class="project__meta">
+                    <span id="project-year" class="project__year">2026</span>
+                    <div id="project-roles" class="project__roles"></div>
+                </div>
+            </div>
+
+            <!-- Slider before/after -->
+            <section class="slider__section">
+                <div id="slider-container" class="comparison-slider"></div>
+            </section>
+
+            <!-- Galería de imágenes -->
+            <section class="gallery__section">
+                <div id="gallery-container" class="gallery__grid"></div>
+            </section>
+        </div>
+    </main>
+
+    <script src="js/page.js"></script>
+</body>
+</html>
